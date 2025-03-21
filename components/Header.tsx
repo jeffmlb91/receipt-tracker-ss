@@ -17,6 +17,9 @@ function Header() {
 
         <div className='flex items-center space-x-4'>
           <SignedIn>
+            <Link href="/receipts">
+                <Button variant="outline">My Receipts</Button>
+            </Link>
             <UserButton/ >
           </SignedIn>
           
